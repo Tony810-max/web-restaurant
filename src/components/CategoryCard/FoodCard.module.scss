@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  color: var(--black-color);
+
+  &:hover .iconCategory {
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.categoryImg {
+  padding: 12px;
+}
+
+.nameFood {
+  font-size: 24px;
+}
+
+.iconCategory {
+  font-size: 24px;
+  padding: 12px;
+  cursor: pointer;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
