@@ -25,7 +25,7 @@ export default function BannerSection() {
             />
           </Button>
         </div>
-        <img src={Burger} className={styles.img} />
+        <img src={Burger} className={styles.img} alt=""/>
       </div>
     </div>
   );
