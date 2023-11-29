@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.imgFood {
+  padding: 12px 12px 24px 32px;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.titleWrapper {
+  display: flex;
+  text-decoration: none;
+  color: var(--black-color);
+  //   justify-content: space-between;
+//   align-items: center;
+  font-family: "Inter", sans-serif;
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+.headingText{
+  text-wrap: nowrap;
+}
+
+.headingText,
+.price {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.dotBorder {
+  width: 100%;
+  border-bottom: 1px dashed;
+  margin-bottom: 10px;
+}
+
+.titleText {
+  font-family: "Inter", sans-serif;
+  text-wrap: nowrap;
+}
+
+.iconStarWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.iconStar {
+  color: var(--primary);
+}

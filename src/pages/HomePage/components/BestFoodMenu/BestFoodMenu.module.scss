@@ -1,0 +1,35 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingWrapper {
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+.titleText {
+  color: var(--primary);
+}
+
+.headingText {
+    font-size: 32px;
+}
+
+.bestMenuWrapper {
+  display: flex;
+}
+
+.BestFoodWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

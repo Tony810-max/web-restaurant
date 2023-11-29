@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 130px 0px 80px;
+}
+
+.prevImage {
+  margin-right: 12px;
+}
+
+.titleText {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.headingText {
+  max-width: 400px;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.descText {
+  max-width: 400px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btnLearnMore {
+  padding: 12px 32px;
+  background-color: var(--primary);
+  border: none;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: var(--black-color);
+  }
+}
+
+.imageWrapper {
+  display: flex;
+  gap: 24px;
+}
